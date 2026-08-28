@@ -1,5 +1,7 @@
 # TeleComOps Agent
 
+[![CI](https://github.com/functionxX/telecomops-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/functionxX/telecomops-agent/actions/workflows/ci.yml)
+
 **电信 CRM 场景的智能业务办理与知识助手** —— 一个用于 AI Agent / AI Application
 Engineer / Agent Workflow Developer 面试展示的完整企业级项目。
 

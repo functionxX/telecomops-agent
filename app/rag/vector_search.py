@@ -8,11 +8,10 @@ Index 选择说明（ADR-002）：
   与余弦度量方向一致。
 """
 
+import os
 import time
 from functools import lru_cache
 from typing import Any
-
-import os  # noqa: E402
 
 # pymilvus 在 import 时会 load_dotenv() 并解析全局 MILVUS_URI，
 # 且只接受 http 形式（本地文件路径只能传给 MilvusClient 实例）。

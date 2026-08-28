@@ -12,8 +12,16 @@ import time
 from functools import lru_cache
 from typing import Any
 
-from pymilvus import CollectionSchema, DataType, FieldSchema, MilvusClient
-from pymilvus.milvus_client.index import IndexParams
+import os  # noqa: E402
+
+# pymilvus 在 import 时会 load_dotenv() 并解析全局 MILVUS_URI，
+# 且只接受 http 形式（本地文件路径只能传给 MilvusClient 实例）。
+# 在 import pymilvus 之前兜底一个合法默认值：load_dotenv 不覆盖
+# 已存在的环境变量，因此 Lite 路径（.env 中配置）不会被全局解析炸掉。
+os.environ.setdefault("MILVUS_URI", "http://localhost:19530")
+
+from pymilvus import CollectionSchema, DataType, FieldSchema, MilvusClient  # noqa: E402
+from pymilvus.milvus_client.index import IndexParams  # noqa: E402
 
 from app.core.config import settings
 from app.core.logging import get_logger

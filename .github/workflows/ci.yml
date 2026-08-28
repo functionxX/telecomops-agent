@@ -25,7 +25,6 @@ jobs:
 
     env:
       MOCK_LLM: "true" # CI 不跑真实 LLM：确定性、零成本、可复现（key 不进 CI）
-      MILVUS_URI: ./milvus_lite.db # CI 用 Milvus Lite（与 standalone 同一 pymilvus API）
       POSTGRES_URL: postgresql+psycopg://telecomops:telecomops@localhost:5433/telecomops
       OTEL_ENABLED: "false"
       HF_HUB_DISABLE_SYMLINKS_WARNING: "1"
@@ -40,6 +39,12 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+
+      # MILVUS_URI 不能设为进程环境变量：pymilvus 的 ORM 层在 import 时
+      # 读取它并只接受 http URI（Lite 的本地路径只允许传给 MilvusClient）。
+      # 通过 .env 文件注入（pydantic-settings 读取，pymilvus 全局不感知）。
+      - name: Configure MILVUS_URI via .env
+        run: echo "MILVUS_URI=./milvus_lite.db" > .env
 
       - name: Install dependencies
         run: uv sync

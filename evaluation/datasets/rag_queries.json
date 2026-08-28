@@ -1,0 +1,1276 @@
+[
+  {
+    "query": "咋查我这月流量还剩多少？除了发短信还有别的办法吗？",
+    "expected_document_ids": [
+      "faq_001"
+    ],
+    "expected_answer_keywords": [
+      "CXLL",
+      "流量管家",
+      "10086"
+    ]
+  },
+  {
+    "query": "我想查下话费还剩多少钱，都有什么查询方法？",
+    "expected_document_ids": [
+      "faq_002"
+    ],
+    "expected_answer_keywords": [
+      "CXYE",
+      "话费查询",
+      "微信公众号"
+    ]
+  },
+  {
+    "query": "我攒的那些积分能换啥？能换话费不？会不会过期啊？",
+    "expected_document_ids": [
+      "faq_003"
+    ],
+    "expected_answer_keywords": [
+      "积分商城",
+      "JFHF",
+      "3 年"
+    ]
+  },
+  {
+    "query": "想换个更合适的套餐，怎么操作？什么时候生效？",
+    "expected_document_ids": [
+      "faq_004"
+    ],
+    "expected_answer_keywords": [
+      "套餐变更",
+      "次月 1 日",
+      "合约"
+    ]
+  },
+  {
+    "query": "要用上 5G 得满足啥条件？我自己手机就是 5G 的，还要办啥不？",
+    "expected_document_ids": [
+      "faq_005"
+    ],
+    "expected_answer_keywords": [
+      "5G 手机",
+      "5G 网络覆盖",
+      "5G 套餐"
+    ]
+  },
+  {
+    "query": "我得出国几个月，号码想留着，办停机保号咋弄？一个月收多少钱？",
+    "expected_document_ids": [
+      "faq_006"
+    ],
+    "expected_answer_keywords": [
+      "停机保号",
+      "5 元",
+      "复机"
+    ]
+  },
+  {
+    "query": "手机卡丢了咋补办？要带啥证件？得花多少钱？",
+    "expected_document_ids": [
+      "faq_007"
+    ],
+    "expected_answer_keywords": [
+      "身份证",
+      "补办",
+      "10 元"
+    ]
+  },
+  {
+    "query": "我想携号转网到别的运营商，具体流程是什么？先要发什么短信查资格？",
+    "expected_document_ids": [
+      "faq_008"
+    ],
+    "expected_answer_keywords": [
+      "CXXZ",
+      "携入方",
+      "次月生效"
+    ]
+  },
+  {
+    "query": "公司话费要报销，电子发票咋开？能开单位抬头不？",
+    "expected_document_ids": [
+      "faq_009"
+    ],
+    "expected_answer_keywords": [
+      "电子发票",
+      "纳税人识别号",
+      "12 个月"
+    ]
+  },
+  {
+    "query": "家里想装个宽带，咋预约？师傅多久能上门？",
+    "expected_document_ids": [
+      "faq_010"
+    ],
+    "expected_answer_keywords": [
+      "48 小时",
+      "光猫",
+      "30 元"
+    ]
+  },
+  {
+    "query": "出国玩要开国际漫游，手机上怎么开通？预付费卡有没有余额要求？",
+    "expected_document_ids": [
+      "faq_011"
+    ],
+    "expected_answer_keywords": [
+      "GMKT",
+      "100 元",
+      "国际漫游"
+    ]
+  },
+  {
+    "query": "想把我妈号码加进亲情号，打电话能便宜，咋添加？",
+    "expected_document_ids": [
+      "faq_012"
+    ],
+    "expected_answer_keywords": [
+      "亲情号",
+      "QJH",
+      "0.1 元/分钟"
+    ]
+  },
+  {
+    "query": "我想给家人办张副卡共享我的流量，最多能办几张？",
+    "expected_document_ids": [
+      "faq_013"
+    ],
+    "expected_answer_keywords": [
+      "副卡",
+      "10 元",
+      "2 张"
+    ]
+  },
+  {
+    "query": "我觉着上月账单多扣钱了，咋申诉？多久能查清楚？",
+    "expected_document_ids": [
+      "faq_014"
+    ],
+    "expected_answer_keywords": [
+      "5 个工作日",
+      "异议核查",
+      "10086"
+    ]
+  },
+  {
+    "query": "买了流量加餐包，能和我套餐里的流量一起用吗？先用哪个？",
+    "expected_document_ids": [
+      "faq_015"
+    ],
+    "expected_answer_keywords": [
+      "叠加",
+      "加餐包",
+      "套外"
+    ]
+  },
+  {
+    "query": "我这来电显示好像没开通，咋弄回来？一个月多少钱？",
+    "expected_document_ids": [
+      "faq_016"
+    ],
+    "expected_answer_keywords": [
+      "来电显示",
+      "LDXS",
+      "6 元"
+    ]
+  },
+  {
+    "query": "最近老有骚扰电话打进来，有没有拦截的办法？",
+    "expected_document_ids": [
+      "faq_017"
+    ],
+    "expected_answer_keywords": [
+      "KTLB",
+      "高频骚扰电话拦截",
+      "黑白名单"
+    ]
+  },
+  {
+    "query": "我在外地把卡弄丢了，能在当地补办不？非得回老家吗？",
+    "expected_document_ids": [
+      "faq_018"
+    ],
+    "expected_answer_keywords": [
+      "异地补卡",
+      "营业厅",
+      "10 元"
+    ]
+  },
+  {
+    "query": "手机号想过户给我爸，咋办？能网上办不？",
+    "expected_document_ids": [
+      "faq_019"
+    ],
+    "expected_answer_keywords": [
+      "过户",
+      "营业厅",
+      "合约"
+    ]
+  },
+  {
+    "query": "这个号码我不想要了，想销户，里面的余额能退回来吗？",
+    "expected_document_ids": [
+      "faq_020"
+    ],
+    "expected_answer_keywords": [
+      "销户",
+      "结清欠费",
+      "3 个工作日"
+    ]
+  },
+  {
+    "query": "最便宜的 5G 套餐是哪个？39 元档送多少流量和通话？",
+    "expected_document_ids": [
+      "package_001"
+    ],
+    "expected_answer_keywords": [
+      "39 元",
+      "5GB",
+      "100 分钟"
+    ]
+  },
+  {
+    "query": "5G 套餐 59 块的都含啥？流量通话各多少？",
+    "expected_document_ids": [
+      "package_002"
+    ],
+    "expected_answer_keywords": [
+      "59 元",
+      "10GB",
+      "150 分钟"
+    ]
+  },
+  {
+    "query": "79 块那个 5G 套餐送多少流量？带不带视频会员？",
+    "expected_document_ids": [
+      "package_003"
+    ],
+    "expected_answer_keywords": [
+      "79 元",
+      "20GB",
+      "咪咕视频"
+    ]
+  },
+  {
+    "query": "99 元的套餐流量和通话各多少？能办副卡吗？",
+    "expected_document_ids": [
+      "package_004"
+    ],
+    "expected_answer_keywords": [
+      "99 元",
+      "30GB",
+      "500 分钟"
+    ]
+  },
+  {
+    "query": "129 元的 5G 套餐含几张副卡？流量给多少？",
+    "expected_document_ids": [
+      "package_005"
+    ],
+    "expected_answer_keywords": [
+      "129 元",
+      "50GB",
+      "2 张副卡"
+    ]
+  },
+  {
+    "query": "哪个套餐能带宽带？159 的带不？宽带还要另外交钱不？",
+    "expected_document_ids": [
+      "package_006"
+    ],
+    "expected_answer_keywords": [
+      "159 元",
+      "80GB",
+      "300M"
+    ]
+  },
+  {
+    "query": "199 套餐流量有多少？含不含千兆宽带？",
+    "expected_document_ids": [
+      "package_007"
+    ],
+    "expected_answer_keywords": [
+      "199 元",
+      "120GB",
+      "千兆宽带"
+    ]
+  },
+  {
+    "query": "299 的套餐是不是送机场贵宾厅？流量给多少？",
+    "expected_document_ids": [
+      "package_008"
+    ],
+    "expected_answer_keywords": [
+      "299 元",
+      "200GB",
+      "机场贵宾厅"
+    ]
+  },
+  {
+    "query": "399 那个商务套餐有啥专属服务？流量多少？",
+    "expected_document_ids": [
+      "package_009"
+    ],
+    "expected_answer_keywords": [
+      "399 元",
+      "400GB",
+      "专属客户经理"
+    ]
+  },
+  {
+    "query": "最贵那个 599 的套餐都送啥？流量有 1 个 T 不？",
+    "expected_document_ids": [
+      "package_010"
+    ],
+    "expected_answer_keywords": [
+      "599 元",
+      "1TB",
+      "10000 分钟"
+    ]
+  },
+  {
+    "query": "我流量不够用了，5G 的加餐包多少钱一个？能用多久？",
+    "expected_document_ids": [
+      "package_011"
+    ],
+    "expected_answer_keywords": [
+      "15 元",
+      "30 天",
+      "5GB 流量加餐包"
+    ]
+  },
+  {
+    "query": "10GB 的流量加餐包卖多少钱？App 上买有优惠吗？",
+    "expected_document_ids": [
+      "package_012"
+    ],
+    "expected_answer_keywords": [
+      "25 元",
+      "9.5 折",
+      "10GB 流量加餐包"
+    ]
+  },
+  {
+    "query": "20GB 加餐包多少钱？含多少定向流量？能用抖音吗？",
+    "expected_document_ids": [
+      "package_013"
+    ],
+    "expected_answer_keywords": [
+      "45 元",
+      "定向流量",
+      "抖音"
+    ]
+  },
+  {
+    "query": "30GB 的流量包多少钱？含不含 5G 高速流量？",
+    "expected_document_ids": [
+      "package_014"
+    ],
+    "expected_answer_keywords": [
+      "60 元",
+      "5G 专属高速流量",
+      "30GB 流量加餐包"
+    ]
+  },
+  {
+    "query": "有没有有效期长点的流量包？50GB 那个能用多少天？",
+    "expected_document_ids": [
+      "package_015"
+    ],
+    "expected_answer_keywords": [
+      "90 元",
+      "45 天",
+      "50GB"
+    ]
+  },
+  {
+    "query": "我一个月能用一百来 G，有没有大的流量包？能用多久？",
+    "expected_document_ids": [
+      "package_016"
+    ],
+    "expected_answer_keywords": [
+      "150 元",
+      "60 天",
+      "100GB 流量加餐包"
+    ]
+  },
+  {
+    "query": "学生办的校园套餐多少钱？要什么证件？流量给多少？",
+    "expected_document_ids": [
+      "package_017"
+    ],
+    "expected_answer_keywords": [
+      "29 元",
+      "40GB",
+      "学生证"
+    ]
+  },
+  {
+    "query": "给爸妈办个便宜的老人套餐，有啥推荐的？多大年纪能办？",
+    "expected_document_ids": [
+      "package_018"
+    ],
+    "expected_answer_keywords": [
+      "孝心卡",
+      "19 元",
+      "60 周岁"
+    ]
+  },
+  {
+    "query": "一家人都用移动，办融合套餐能加几个人？宽带是不是含的？",
+    "expected_document_ids": [
+      "package_019"
+    ],
+    "expected_answer_keywords": [
+      "家庭融合套餐",
+      "5 个成员",
+      "300M"
+    ]
+  },
+  {
+    "query": "晚上熬夜看视频流量遭不住，有没有夜间流量包？几点到几点能用？",
+    "expected_document_ids": [
+      "package_020"
+    ],
+    "expected_answer_keywords": [
+      "闲时流量包",
+      "100GB",
+      "23:00"
+    ]
+  },
+  {
+    "query": "国际漫游开通需要满足什么条件？后付费和预付费要求一样吗？",
+    "expected_document_ids": [
+      "roaming_001"
+    ],
+    "expected_answer_keywords": [
+      "200 元",
+      "100 元",
+      "GMKT"
+    ]
+  },
+  {
+    "query": "去香港澳门玩，漫游打电话咋收费？流量一天几块钱？",
+    "expected_document_ids": [
+      "roaming_002"
+    ],
+    "expected_answer_keywords": [
+      "0.29 元/分钟",
+      "5 元/天",
+      "港澳台"
+    ]
+  },
+  {
+    "query": "去日本旅游，漫游流量日套餐多少钱一天？",
+    "expected_document_ids": [
+      "roaming_003"
+    ],
+    "expected_answer_keywords": [
+      "25 元/天",
+      "0.99 元/分钟",
+      "日韩漫游包"
+    ]
+  },
+  {
+    "query": "去泰国玩，漫游流量一天多少钱？打电话贵不贵？",
+    "expected_document_ids": [
+      "roaming_004"
+    ],
+    "expected_answer_keywords": [
+      "30 元/天",
+      "1.99 元/分钟",
+      "新加坡"
+    ]
+  },
+  {
+    "query": "去美国出差，漫游资费贵不贵？流量一天多少钱？",
+    "expected_document_ids": [
+      "roaming_005"
+    ],
+    "expected_answer_keywords": [
+      "88 元/天",
+      "2.99 元/分钟",
+      "美国"
+    ]
+  },
+  {
+    "query": "去澳大利亚旅游，漫游流量怎么收费？",
+    "expected_document_ids": [
+      "roaming_006"
+    ],
+    "expected_answer_keywords": [
+      "55 元/天",
+      "新西兰",
+      "2GB"
+    ]
+  },
+  {
+    "query": "国际漫游流量日套餐是怎么计费的？没用会扣钱吗？",
+    "expected_document_ids": [
+      "roaming_007"
+    ],
+    "expected_answer_keywords": [
+      "按天计费",
+      "9 折",
+      "加油包"
+    ]
+  },
+  {
+    "query": "在国外接电话要钱不？打回国内多少钱一分钟？",
+    "expected_document_ids": [
+      "roaming_008"
+    ],
+    "expected_answer_keywords": [
+      "接听均免费",
+      "第三国",
+      "2.99 元/分钟"
+    ]
+  },
+  {
+    "query": "在国外发短信回国内怎么收费？收短信免费吗？",
+    "expected_document_ids": [
+      "roaming_009"
+    ],
+    "expected_answer_keywords": [
+      "0.99 元/条",
+      "接收短信",
+      "1.99 元/条"
+    ]
+  },
+  {
+    "query": "回国了想把国际漫游关掉，怎么操作？",
+    "expected_document_ids": [
+      "roaming_010"
+    ],
+    "expected_answer_keywords": [
+      "GMBG",
+      "国际漫游",
+      "数据漫游开关"
+    ]
+  },
+  {
+    "query": "我在云南边境，手机老自动切到国外网，咋整？会不会扣漫游费？",
+    "expected_document_ids": [
+      "roaming_011"
+    ],
+    "expected_answer_keywords": [
+      "云南",
+      "边境漫游提醒",
+      "中国移动"
+    ]
+  },
+  {
+    "query": "出国后手机没信号，怎么选网络？需要手动设置吗？",
+    "expected_document_ids": [
+      "roaming_012"
+    ],
+    "expected_answer_keywords": [
+      "自动搜索",
+      "手动搜索",
+      "合作运营商"
+    ]
+  },
+  {
+    "query": "在国外遇到紧急情况打什么电话？收费吗？",
+    "expected_document_ids": [
+      "roaming_013"
+    ],
+    "expected_answer_keywords": [
+      "112",
+      "911",
+      "免费"
+    ]
+  },
+  {
+    "query": "我怕出国流量爆表，是不是把数据漫游关了就行？电话还能用不？",
+    "expected_document_ids": [
+      "roaming_014"
+    ],
+    "expected_answer_keywords": [
+      "数据漫游",
+      "蜂窝网络",
+      "WiFi"
+    ]
+  },
+  {
+    "query": "国际漫游开通后多久生效？当天开通来得及吗？",
+    "expected_document_ids": [
+      "roaming_015"
+    ],
+    "expected_answer_keywords": [
+      "2 小时",
+      "24 小时",
+      "GMTCX"
+    ]
+  },
+  {
+    "query": "我是预付费用户，开通漫游对余额有要求吗？",
+    "expected_document_ids": [
+      "roaming_016"
+    ],
+    "expected_answer_keywords": [
+      "100 元",
+      "20 元",
+      "预付费"
+    ]
+  },
+  {
+    "query": "在国外怎么查自己漫游流量用了多少？",
+    "expected_document_ids": [
+      "roaming_017"
+    ],
+    "expected_answer_keywords": [
+      "CXLL",
+      "费用提醒",
+      "漫游流量"
+    ]
+  },
+  {
+    "query": "漫游费用在账单里怎么看？有异议能申请核查吗？",
+    "expected_document_ids": [
+      "roaming_018"
+    ],
+    "expected_answer_keywords": [
+      "国际及港澳台漫游",
+      "漫游明细",
+      "3 个月"
+    ]
+  },
+  {
+    "query": "话费账单什么时候出？一个账单周期是几号到几号？",
+    "expected_document_ids": [
+      "billing_001"
+    ],
+    "expected_answer_keywords": [
+      "次月 5 日",
+      "每月 1 日",
+      "出账"
+    ]
+  },
+  {
+    "query": "想看话费账单明细，在哪能看？营业厅能打印不？",
+    "expected_document_ids": [
+      "billing_002"
+    ],
+    "expected_answer_keywords": [
+      "我的账单",
+      "CXYE",
+      "纸质账单"
+    ]
+  },
+  {
+    "query": "忘交话费了，多久会停机？多久会被销号？",
+    "expected_document_ids": [
+      "billing_003"
+    ],
+    "expected_answer_keywords": [
+      "30 天",
+      "60 天",
+      "停机"
+    ]
+  },
+  {
+    "query": "话费都能咋交？能用支付宝不？",
+    "expected_document_ids": [
+      "billing_004"
+    ],
+    "expected_answer_keywords": [
+      "支付宝",
+      "微信公众号",
+      "现金"
+    ]
+  },
+  {
+    "query": "余额一低我就老忘充话费，能不能设个自动充值？",
+    "expected_document_ids": [
+      "billing_005"
+    ],
+    "expected_answer_keywords": [
+      "自动充值",
+      "20 元",
+      "1000 元"
+    ]
+  },
+  {
+    "query": "话费账单能分期付吗？手续费多少？",
+    "expected_document_ids": [
+      "billing_006"
+    ],
+    "expected_answer_keywords": [
+      "账单分期",
+      "0.5%",
+      "3 期"
+    ]
+  },
+  {
+    "query": "合约没到期想销户，违约金怎么算的？",
+    "expected_document_ids": [
+      "billing_007"
+    ],
+    "expected_answer_keywords": [
+      "30%",
+      "178.2 元",
+      "违约金"
+    ]
+  },
+  {
+    "query": "手机、宽带能不能合到一起出账缴费？",
+    "expected_document_ids": [
+      "billing_008"
+    ],
+    "expected_answer_keywords": [
+      "合并出账",
+      "账户管理",
+      "实名认证"
+    ]
+  },
+  {
+    "query": "发票抬头开错了能改不？在哪重新开？",
+    "expected_document_ids": [
+      "billing_009"
+    ],
+    "expected_answer_keywords": [
+      "发票中心",
+      "红冲",
+      "纳税人识别号"
+    ]
+  },
+  {
+    "query": "话费余额为什么有两部分？冻结余额是什么意思？",
+    "expected_document_ids": [
+      "billing_010"
+    ],
+    "expected_answer_keywords": [
+      "可用余额",
+      "冻结余额",
+      "CXYE"
+    ]
+  },
+  {
+    "query": "想查上个月每笔话费咋扣的，在哪看？",
+    "expected_document_ids": [
+      "billing_011"
+    ],
+    "expected_answer_keywords": [
+      "消费明细",
+      "12 个月",
+      "扣费记录"
+    ]
+  },
+  {
+    "query": "我啥都没订，咋每个月扣彩铃费？能退不？",
+    "expected_document_ids": [
+      "billing_012"
+    ],
+    "expected_answer_keywords": [
+      "TDA",
+      "72 小时",
+      "双倍退还"
+    ]
+  },
+  {
+    "query": "多扣的话费怎么申请退？多久到账？",
+    "expected_document_ids": [
+      "billing_013"
+    ],
+    "expected_answer_keywords": [
+      "退费",
+      "3 至 5 个工作日",
+      "收款银行卡"
+    ]
+  },
+  {
+    "query": "欠费太久是不是号就没了？号码里的钱还能剩着不？",
+    "expected_document_ids": [
+      "billing_014"
+    ],
+    "expected_answer_keywords": [
+      "60 天",
+      "自动销号",
+      "5 元"
+    ]
+  },
+  {
+    "query": "啥是信用额度？为啥我欠费了还没停机？",
+    "expected_document_ids": [
+      "billing_015"
+    ],
+    "expected_answer_keywords": [
+      "信用额度",
+      "100 元",
+      "1000 元"
+    ]
+  },
+  {
+    "query": "账单金额有争议，协商不成还能投诉到哪？",
+    "expected_document_ids": [
+      "billing_016"
+    ],
+    "expected_answer_keywords": [
+      "12300",
+      "账单反馈",
+      "5 个工作日"
+    ]
+  },
+  {
+    "query": "我充的话费会不会过期？有效期多久？",
+    "expected_document_ids": [
+      "billing_017"
+    ],
+    "expected_answer_keywords": [
+      "2 年",
+      "6 个月",
+      "CXYE"
+    ]
+  },
+  {
+    "query": "账单上写的月租费、代收费都是啥意思？",
+    "expected_document_ids": [
+      "billing_018"
+    ],
+    "expected_answer_keywords": [
+      "月租费",
+      "代收费",
+      "冲抵"
+    ]
+  },
+  {
+    "query": "现在流量包打折不？10GB 的多少钱？",
+    "expected_document_ids": [
+      "promotion_001"
+    ],
+    "expected_answer_keywords": [
+      "限时折扣",
+      "15 元",
+      "40 元"
+    ]
+  },
+  {
+    "query": "积分能换流量不？多少积分换多少 G？",
+    "expected_document_ids": [
+      "promotion_002"
+    ],
+    "expected_answer_keywords": [
+      "1000 积分",
+      "5000 积分",
+      "积分商城"
+    ]
+  },
+  {
+    "query": "办合约机买手机能便宜多少？有什么条件？",
+    "expected_document_ids": [
+      "promotion_003"
+    ],
+    "expected_answer_keywords": [
+      "1500 元",
+      "24 个月",
+      "50 元"
+    ]
+  },
+  {
+    "query": "用移动好几年了，有没有老用户福利？",
+    "expected_document_ids": [
+      "promotion_004"
+    ],
+    "expected_answer_keywords": [
+      "满 3 年",
+      "我的权益",
+      "5GB"
+    ]
+  },
+  {
+    "query": "现在升 5G 套餐送流量吗？送多少？",
+    "expected_document_ids": [
+      "promotion_005"
+    ],
+    "expected_answer_keywords": [
+      "10GB 5G 流量",
+      "3 个月",
+      "视频彩铃"
+    ]
+  },
+  {
+    "query": "充话费有赠送不？充多少送多少？",
+    "expected_document_ids": [
+      "promotion_006"
+    ],
+    "expected_answer_keywords": [
+      "满 100 元",
+      "30 元话费券",
+      "5 元话费券"
+    ]
+  },
+  {
+    "query": "办家庭套餐有折扣吗？首年折后多少钱？",
+    "expected_document_ids": [
+      "promotion_007"
+    ],
+    "expected_answer_keywords": [
+      "8 折",
+      "103.2 元",
+      "家庭融合套餐"
+    ]
+  },
+  {
+    "query": "过节有没有免费流量领？发啥短信？",
+    "expected_document_ids": [
+      "promotion_008"
+    ],
+    "expected_answer_keywords": [
+      "JJH",
+      "10GB 假日流量包",
+      "秒杀"
+    ]
+  },
+  {
+    "query": "新办号码第一次充话费有什么优惠？",
+    "expected_document_ids": [
+      "promotion_009"
+    ],
+    "expected_answer_keywords": [
+      "满 50 元",
+      "10 元话费",
+      "7 天"
+    ]
+  },
+  {
+    "query": "喊朋友办号，我能得啥奖励？",
+    "expected_document_ids": [
+      "promotion_010"
+    ],
+    "expected_answer_keywords": [
+      "邀请码",
+      "2000 积分",
+      "15 元话费券"
+    ]
+  },
+  {
+    "query": "我这个月过生日，移动有啥生日福利没？",
+    "expected_document_ids": [
+      "promotion_011"
+    ],
+    "expected_answer_keywords": [
+      "生日礼包",
+      "我的生日礼",
+      "10GB"
+    ]
+  },
+  {
+    "query": "年底有没有回馈活动？消费达标能抽奖吗？",
+    "expected_document_ids": [
+      "promotion_012"
+    ],
+    "expected_answer_keywords": [
+      "年末回馈",
+      "抽奖",
+      "5000 积分"
+    ]
+  },
+  {
+    "query": "听说流量包买一送一，到啥时候截止？",
+    "expected_document_ids": [
+      "promotion_013"
+    ],
+    "expected_answer_keywords": [
+      "买一送一",
+      "6 月 30 日",
+      "20GB"
+    ]
+  },
+  {
+    "query": "一家人流量用得多，有奖励活动吗？",
+    "expected_document_ids": [
+      "promotion_014"
+    ],
+    "expected_answer_keywords": [
+      "80GB",
+      "20GB 共享流量",
+      "家庭共享"
+    ]
+  },
+  {
+    "query": "携号转网有什么政策规定？转网多久能办好？",
+    "expected_document_ids": [
+      "policy_001"
+    ],
+    "expected_answer_keywords": [
+      "携号转网",
+      "1 个工作日",
+      "不换号"
+    ]
+  },
+  {
+    "query": "一个身份证能办几个手机号？实名制有什么规定？",
+    "expected_document_ids": [
+      "policy_002"
+    ],
+    "expected_answer_keywords": [
+      "实名登记",
+      "5 个号码",
+      "身份证件"
+    ]
+  },
+  {
+    "query": "未成年人用手机上网有什么限制？家长能管控吗？",
+    "expected_document_ids": [
+      "policy_003"
+    ],
+    "expected_answer_keywords": [
+      "防沉迷",
+      "绿色上网",
+      "16 周岁"
+    ]
+  },
+  {
+    "query": "被骚扰电话烦死了，国家有啥治理政策？举报电话是多少？",
+    "expected_document_ids": [
+      "policy_004"
+    ],
+    "expected_answer_keywords": [
+      "12321",
+      "专项行动",
+      "KTLB"
+    ]
+  },
+  {
+    "query": "我好像遇到诈骗电话了，被骗的钱能追回来不？",
+    "expected_document_ids": [
+      "policy_005"
+    ],
+    "expected_answer_keywords": [
+      "96110",
+      "反电信网络诈骗法",
+      "紧急止付"
+    ]
+  },
+  {
+    "query": "运营商拿着我的个人信息，我能查他们怎么用吗？",
+    "expected_document_ids": [
+      "policy_006"
+    ],
+    "expected_answer_keywords": [
+      "隐私中心",
+      "个人信息保护法",
+      "更正"
+    ]
+  },
+  {
+    "query": "套餐变更有什么规则？为什么当月不能降档？",
+    "expected_document_ids": [
+      "policy_007"
+    ],
+    "expected_answer_keywords": [
+      "当月不改不降",
+      "合约期",
+      "结算"
+    ]
+  },
+  {
+    "query": "停机保号最长能保多久？政策上怎么规定的？",
+    "expected_document_ids": [
+      "policy_008"
+    ],
+    "expected_answer_keywords": [
+      "6 个月",
+      "5 元",
+      "回收"
+    ]
+  },
+  {
+    "query": "销户后号码还能再办回来吗？有什么政策限制？",
+    "expected_document_ids": [
+      "policy_009"
+    ],
+    "expected_answer_keywords": [
+      "冷冻期",
+      "授权委托书",
+      "90 天"
+    ]
+  },
+  {
+    "query": "国际漫游收费有什么监管规定？超支会不会有提醒？",
+    "expected_document_ids": [
+      "policy_010"
+    ],
+    "expected_answer_keywords": [
+      "明示告知",
+      "500 元",
+      "费用限额"
+    ]
+  },
+  {
+    "query": "5G 现在覆盖咋样了？咋查我家有没有信号？",
+    "expected_document_ids": [
+      "policy_011"
+    ],
+    "expected_answer_keywords": [
+      "98%",
+      "覆盖地图",
+      "5G 网络覆盖"
+    ]
+  },
+  {
+    "query": "手机能用 eSIM 吗？现在支持什么设备？",
+    "expected_document_ids": [
+      "policy_012"
+    ],
+    "expected_answer_keywords": [
+      "eSIM",
+      "一号双终端",
+      "10 元"
+    ]
+  },
+  {
+    "query": "号码长期不用会被回收吗？什么算长期不用？",
+    "expected_document_ids": [
+      "policy_013"
+    ],
+    "expected_answer_keywords": [
+      "沉睡号码",
+      "回收",
+      "6 个月"
+    ]
+  },
+  {
+    "query": "运营商对网络质量有什么承诺标准？故障多久修好？",
+    "expected_document_ids": [
+      "policy_014"
+    ],
+    "expected_answer_keywords": [
+      "网络接通率",
+      "95%",
+      "24 小时"
+    ]
+  },
+  {
+    "query": "出国前想开国际漫游，开通要满足啥条件？到了那边流量一天多少钱？",
+    "expected_document_ids": [
+      "faq_011",
+      "roaming_002"
+    ],
+    "expected_answer_keywords": [
+      "GMKT",
+      "100 元",
+      "0.29 元/分钟",
+      "5 元/天"
+    ]
+  },
+  {
+    "query": "副卡咋办理？129 元的 5G 套餐能带几张副卡、给多少流量？",
+    "expected_document_ids": [
+      "faq_013",
+      "package_005"
+    ],
+    "expected_answer_keywords": [
+      "副卡",
+      "2 张",
+      "129 元",
+      "50GB"
+    ]
+  },
+  {
+    "query": "漫游资费有啥监管要求？运营商开通前必须明示资费吗？接听免费不？",
+    "expected_document_ids": [
+      "policy_010",
+      "roaming_008"
+    ],
+    "expected_answer_keywords": [
+      "明示告知",
+      "500 元",
+      "接听均免费",
+      "第三国"
+    ]
+  },
+  {
+    "query": "充话费满多少送话费券？赠送的余额算可用余额还是冻结余额？",
+    "expected_document_ids": [
+      "promotion_006",
+      "billing_010"
+    ],
+    "expected_answer_keywords": [
+      "满 100 元",
+      "30 元话费券",
+      "可用余额",
+      "冻结余额"
+    ]
+  },
+  {
+    "query": "账单扣费有疑问，怎么申请异议核查？多久有结果？投诉电话多少？",
+    "expected_document_ids": [
+      "faq_014",
+      "billing_016"
+    ],
+    "expected_answer_keywords": [
+      "5 个工作日",
+      "异议核查",
+      "12300",
+      "账单反馈"
+    ]
+  },
+  {
+    "query": "欠费多久停机、多久销号？想保号的话停机保号最长保多久？",
+    "expected_document_ids": [
+      "billing_003",
+      "policy_008"
+    ],
+    "expected_answer_keywords": [
+      "30 天",
+      "60 天",
+      "6 个月",
+      "5 元"
+    ]
+  },
+  {
+    "query": "出国玩回来，漫游费用在账单里怎么查明细？",
+    "expected_document_ids": [
+      "roaming_018",
+      "billing_011"
+    ],
+    "expected_answer_keywords": [
+      "国际及港澳台漫游",
+      "漫游明细",
+      "消费明细",
+      "12 个月"
+    ]
+  },
+  {
+    "query": "学生办校园套餐要啥证件？一个身份证能实名办几个号？",
+    "expected_document_ids": [
+      "package_017",
+      "policy_002"
+    ],
+    "expected_answer_keywords": [
+      "学生证",
+      "29 元",
+      "实名登记",
+      "5 个号码"
+    ]
+  },
+  {
+    "query": "骚扰电话咋拦截？国家治理骚扰电话有啥政策、举报电话是多少？",
+    "expected_document_ids": [
+      "faq_017",
+      "policy_004"
+    ],
+    "expected_answer_keywords": [
+      "KTLB",
+      "高频骚扰电话拦截",
+      "12321",
+      "专项行动"
+    ]
+  },
+  {
+    "query": "流量包买一送一到啥时候截止？100GB 大流量包原价多少、能用多久？",
+    "expected_document_ids": [
+      "promotion_013",
+      "package_016"
+    ],
+    "expected_answer_keywords": [
+      "买一送一",
+      "6 月 30 日",
+      "150 元",
+      "60 天"
+    ]
+  }
+]

@@ -1,0 +1,63 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  lint-typecheck-test:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16-alpine
+        env:
+          POSTGRES_USER: telecomops
+          POSTGRES_PASSWORD: telecomops
+          POSTGRES_DB: telecomops
+        ports:
+          - 5433:5432
+        options: >-
+          --health-cmd "pg_isready -U telecomops"
+          --health-interval 5s
+          --health-timeout 3s
+          --health-retries 10
+
+    env:
+      MOCK_LLM: "true" # CI 不跑真实 LLM：确定性、零成本、可复现（key 不进 CI）
+      MILVUS_URI: ./milvus_lite.db # CI 用 Milvus Lite（与 standalone 同一 pymilvus API）
+      POSTGRES_URL: postgresql+psycopg://telecomops:telecomops@localhost:5433/telecomops
+      OTEL_ENABLED: "false"
+      HF_HUB_DISABLE_SYMLINKS_WARNING: "1"
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: uv sync
+
+      - name: Lint (ruff)
+        run: uv run ruff check .
+
+      - name: Type check (mypy)
+        run: uv run mypy app scripts
+
+      - name: Init DB + seed
+        run: uv run python scripts/init_db.py
+
+      - name: Ingest knowledge (Milvus Lite)
+        run: uv run python scripts/ingest_knowledge.py
+
+      - name: Unit tests
+        run: uv run pytest tests/unit -q
+
+      - name: Integration / workflow / API tests
+        run: uv run pytest tests/integration tests/workflow tests/api -q

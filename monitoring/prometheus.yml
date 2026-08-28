@@ -1,0 +1,22 @@
+# Prometheus 抓取配置
+#
+# 两种运行模式：
+#   1) app 在本机直跑（开发）：抓 host.docker.internal:8000（已配置 extra_hosts）
+#   2) app 在 compose 里跑（完整模式）：把 app 任务 target 改为 app:8000
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+
+scrape_configs:
+  - job_name: app
+    metrics_path: /metrics
+    static_configs:
+      - targets: ["host.docker.internal:8000"] # 完整 compose 模式改为 app:8000
+
+  - job_name: otel-collector
+    static_configs:
+      - targets: ["otel-collector:8889"] # collector 导出的应用 metrics（OTel 自动埋点）
+
+  - job_name: milvus
+    static_configs:
+      - targets: ["milvus:9091"]

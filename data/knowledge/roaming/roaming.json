@@ -1,0 +1,146 @@
+[
+  {
+    "id": "roaming_001",
+    "content": "国际漫游开通条件：后付费用户预存款不低于 200 元或信用额度充足，预付费用户账户余额不低于 100 元。开通方式：中国移动 App「国际漫游」入口自助开通、发送短信 GMKT 至 10086、或拨打 10086 人工开通，办理后约 2 小时内生效，不收取开通费。",
+    "category": "roaming",
+    "source": "roaming/activation_condition.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "roaming_002",
+    "content": "港澳台漫游资费：中国香港、澳门、台湾地区语音主叫 0.29 元/分钟，接听免费；流量 5 元/天不限量（当日累计使用 5 元后不再扣费），短信 0.29 元/条。订购港澳台漫游日套餐后按天计费，每天首次产生流量时自动订购，回国后自动失效。",
+    "category": "roaming",
+    "source": "roaming/hmt_rates.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "roaming_003",
+    "content": "日本、韩国漫游资费：语音主叫 0.99 元/分钟，接听免费；流量日套餐 25 元/天不限量，含 2GB 高速流量后限速 1Mbps；短信 0.49 元/条。建议出行前在中国移动 App 订购「日韩漫游包」，支持天数灵活选择，未使用天数可退款。",
+    "category": "roaming",
+    "source": "roaming/jp_kr_rates.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "roaming_004",
+    "content": "东南亚漫游资费：新加坡、泰国、马来西亚、越南等国家语音主叫 1.99 元/分钟，接听免费；流量日套餐 30 元/天含 3GB 高速流量，用完后限速 2Mbps 不限量；短信 0.99 元/条。缅甸、柬埔寨等国家资费稍高，主叫 2.99 元/分钟，出行前建议查询目的地具体资费。",
+    "category": "roaming",
+    "source": "roaming/sea_rates.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "roaming_005",
+    "content": "欧洲及北美漫游资费：美国、英国、法国、德国、意大利等主流国家语音主叫 2.99 元/分钟，接听免费；流量日套餐 88 元/天含 1GB 高速流量，超过后限速 384Kbps；短信 1.99 元/条。加拿大、澳大利亚同档，可订购多国通用漫游包节省费用。",
+    "category": "roaming",
+    "source": "roaming/eu_us_rates.md",
+    "version": "2026-06",
+    "effective_date": "2026-06-01"
+  },
+  {
+    "id": "roaming_006",
+    "content": "大洋洲漫游资费：澳大利亚、新西兰语音主叫 2.99 元/分钟，接听免费；流量日套餐 55 元/天含 2GB 高速流量，用尽后限速 1Mbps；短信 1.49 元/条。斐济、巴布亚新几内亚等岛屿国家主叫 4.99 元/分钟，建议通过中国移动 App 查询实时资费后再出行。",
+    "category": "roaming",
+    "source": "roaming/oceania_rates.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "roaming_007",
+    "content": "国际漫游流量日套餐按天计费，自动按到达地资费订购，每天首次使用流量时自动生效并扣费，未使用不扣费；支持中国移动 App 提前订购多日套餐享 9 折优惠。日套餐高速流量用尽后自动限速，可订购加油包恢复高速，回国后套餐自动失效。",
+    "category": "roaming",
+    "source": "roaming/daily_data_pack.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "roaming_008",
+    "content": "国际漫游语音资费因目的地而异：港澳台 0.29 元/分钟，日韩 0.99 元/分钟，东南亚 1.99 元/分钟，欧美及大洋洲 2.99 元/分钟；漫游接听均免费。拨打中国大陆电话与拨打当地电话资费相同，拨打第三国电话按更高一档计费，通话不足 1 分钟按 1 分钟计算。",
+    "category": "roaming",
+    "source": "roaming/voice_rates.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "roaming_009",
+    "content": "国际漫游短信资费：发送短信至中国大陆号码港澳台 0.29 元/条、日韩 0.49 元/条、东南亚 0.99 元/条、欧美 1.99 元/条；接收短信在大部分目的地免费。发送短信至第三国号码加收 0.1 元/条国际漫游费，建议开通漫游后优先使用 App 内免费网络消息工具沟通。",
+    "category": "roaming",
+    "source": "roaming/sms_rates.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "roaming_010",
+    "content": "关闭国际漫游可通过发送短信 GMBG 至 10086 办理，或在中国移动 App「国际漫游」页面关闭开关；关闭后境外将无法使用语音、流量和短信，回国后如需使用需重新开通。若仅不想使用数据，可单独关闭数据漫游开关，保留语音和短信功能。",
+    "category": "roaming",
+    "source": "roaming/deactivation.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "roaming_011",
+    "content": "在云南、广西、黑龙江等边境地区，手机可能自动切换到邻国网络导致产生国际漫游费用；建议通过手机设置手动锁定运营商为中国移动，或在中国移动 App 开启「边境漫游提醒」，收到提醒短信后及时调整网络，避免误扣费，并可设置漫游费用限额提醒。",
+    "category": "roaming",
+    "source": "roaming/border_reminder.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "roaming_012",
+    "content": "出境后手机默认自动搜索并选择当地合作网络，无需手动设置；若无法注册网络，可在手机设置中手动搜索网络，选择当地中国移动合作运营商。支持 4G/5G 漫游的目的地网络质量更佳，部分地区仅支持 3G，网络切换不产生额外费用。",
+    "category": "roaming",
+    "source": "roaming/network_selection.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "roaming_013",
+    "content": "国际漫游期间拨打紧急电话 112 为免费服务，无论手机是否插卡、是否欠费均可拨打；部分国家紧急号码为 911 或 999，拨打后自动转接当地紧急服务中心。建议出行前将酒店地址保存在手机备忘录，紧急呼叫时向接线员准确报出位置信息。",
+    "category": "roaming",
+    "source": "roaming/emergency_call.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "roaming_014",
+    "content": "手机数据漫游开关可在手机设置「蜂窝网络-数据漫游」中控制；关闭后境外无法使用移动数据，但语音通话和短信功能不受影响，可避免无意间产生高额流量费。建议在境外优先使用当地 WiFi 并结合漫游日套餐，回国后记得重新开启数据漫游。",
+    "category": "roaming",
+    "source": "roaming/data_roaming_switch.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "roaming_015",
+    "content": "国际漫游业务开通后一般在 2 小时内生效，具体时间以短信确认通知为准；部分目的地需人工审核，最长 24 小时生效。建议出行前至少提前 1 天开通并测试，开通后可发送短信 GMTCX 至 10086 查询漫游状态，临近国境线区域可能延迟生效。",
+    "category": "roaming",
+    "source": "roaming/activation_time.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "roaming_016",
+    "content": "预付费用户开通国际漫游需账户余额不低于 100 元，漫游期间每次通话或上网前需确保余额充足，余额低于 20 元时将收到提醒短信；余额不足时漫游服务自动暂停，充值后可恢复。部分高风险目的地对预付费用户漫游有额外限制，建议出行前咨询 10086。",
+    "category": "roaming",
+    "source": "roaming/prepaid_limits.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "roaming_017",
+    "content": "漫游期间查询流量可通过发送短信 CXLL 至 10086 接收漫游流量使用报告，或在中国移动 App「国际漫游」页面查看实时用量；App 支持设置漫游流量费用提醒，达到设定额度自动短信通知。漫游流量数据更新延迟约 1 小时，以出账账单为准。",
+    "category": "roaming",
+    "source": "roaming/data_query.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "roaming_018",
+    "content": "国际漫游费用在次月账单中单独列示「国际及港澳台漫游」明细，包含每个国家的通话、流量、短信费用；可通过中国移动 App「账单-漫游明细」逐笔查看。如对漫游账单有异议，可在账单出具后 3 个月内拨打 10086 申请核查，误扣费用将原路退回。",
+    "category": "roaming",
+    "source": "roaming/billing_notes.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "id": "package_001",
+    "content": "5G 畅享套餐 39 元档含国内流量 5GB、国内通话 100 分钟，超出后流量按 5 元/GB 收费，语音 0.15 元/分钟；含来电显示、5G 网络优先接入权益，订购后次月生效。适合流量需求少、通话少的用户，可在中国移动 App「套餐变更」中办理。",
+    "category": "package",
+    "source": "package/5g_plan_39.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "package_002",
+    "content": "5G 畅享套餐 59 元档含国内流量 10GB、国内通话 150 分钟，含来电显示与 5G 极速上网体验，超出流量 5 元/GB、语音 0.15 元/分钟。新用户入网可免费体验 3 个月 5G 专属权益，包含视频彩铃、云游戏加速等，合约期 12 个月。",
+    "category": "package",
+    "source": "package/5g_plan_59.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "package_003",
+    "content": "5G 畅享套餐 79 元档含国内流量 20GB、国内通话 300 分钟，超出流量按 3 元/GB 收费，语音 0.15 元/分钟。套餐含 3 个亲情号免费拨打权益及咪咕视频会员月卡，适合中等流量需求用户，变更次月生效，可通过 10086 或 App 办理。",
+    "category": "package",
+    "source": "package/5g_plan_79.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "package_004",
+    "content": "5G 畅享套餐 99 元档含国内流量 30GB、国内通话 500 分钟，超出流量 3 元/GB。含视频彩铃、云盘 1TB 空间及咪咕视频会员权益，可办理 1 张副卡共享套餐资源（月功能费 10 元）。合约期 12 个月，合约期内可升级不可降档。",
+    "category": "package",
+    "source": "package/5g_plan_99.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "package_005",
+    "content": "5G 畅享套餐 129 元档含国内流量 50GB、国内通话 800 分钟，含 2 张副卡共享权益与云盘 2TB 空间。超出流量 3 元/GB，语音 0.1 元/分钟。含咪咕视频、音乐双会员及 5G 专属服务热线优先接入，适合重度流量家庭用户办理。",
+    "category": "package",
+    "source": "package/5g_plan_129.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "package_006",
+    "content": "5G 畅享套餐 159 元档含国内流量 80GB、国内通话 1000 分钟，含 2 张副卡及家庭宽带 300M 融合优惠，办理后宽带月费 0 元。超出流量 3 元/GB。含云盘 2TB、视频双会员权益，合约期 24 个月，合约期内停机保号需先解约。",
+    "category": "package",
+    "source": "package/5g_plan_159.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "package_007",
+    "content": "5G 畅享套餐 199 元档含国内流量 120GB、国内通话 1500 分钟，含 2 张副卡、千兆宽带及电视业务融合权益，超出流量 3 元/GB。含云盘 4TB、视频音乐双会员、高铁地铁专属通道加速服务，适合多人家庭及商务人士办理。",
+    "category": "package",
+    "source": "package/5g_plan_199.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "package_008",
+    "content": "5G 畅享套餐 299 元档含国内流量 200GB、国内通话 3000 分钟，含 2 张副卡、千兆宽带与全屋 WiFi 组网服务（免费 2 个面板）。超出流量 3 元/GB、语音 0.1 元/分钟。含机场贵宾厅服务每年 2 次及视频全会员权益。",
+    "category": "package",
+    "source": "package/5g_plan_299.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "package_009",
+    "content": "5G 畅享套餐 399 元档含国内流量 400GB、国内通话 6000 分钟，含 3 张副卡、千兆宽带及企业级云盘 8TB。超出流量 3 元/GB。含机场贵宾厅服务每年 4 次、专属客户经理一对一服务及 7×24 小时优先客服热线，适合高流量商务用户。",
+    "category": "package",
+    "source": "package/5g_plan_399.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "package_010",
+    "content": "5G 畅享套餐 599 元档含国内流量 1TB、国内通话 10000 分钟，含 4 张副卡、千兆双宽带及电视全家享权益。超出流量 3 元/GB。含机场贵宾厅服务每年 8 次、国际漫游日套餐每月 5 天免费体验及专属权益管家，为最高档 5G 套餐。",
+    "category": "package",
+    "source": "package/5g_plan_599.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "package_011",
+    "content": "5GB 流量加餐包售价 15 元，有效期 30 天，适合主套餐流量不够用的用户临时补充；订购后立即生效，未用完流量到期自动清零，不结转。可通过发送短信 JCB 至 10086 订购，或在中国移动 App「流量商城」购买，每个自然月最多可订购 5 个。",
+    "category": "package",
+    "source": "package/flow_pack_5gb.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "package_012",
+    "content": "10GB 流量加餐包售价 25 元，有效期 30 天，订购立即生效，可与主套餐及多个月包叠加使用；超出主套餐流量后优先消耗加餐包，不会产生套外高额流量费。通过中国移动 App 订购可享 9.5 折优惠，即 23.75 元，适合出差及直播用户。",
+    "category": "package",
+    "source": "package/flow_pack_10gb.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "package_013",
+    "content": "20GB 流量加餐包售价 45 元，有效期 30 天，含视频定向流量 10GB 可用于咪咕视频、抖音等指定应用。订购后立即生效，月末不清零但到期自动失效；可通过发送短信 JCB20 至 10086 或 App「流量商城」订购，每个自然月最多订购 3 个。",
+    "category": "package",
+    "source": "package/flow_pack_20gb.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "package_014",
+    "content": "30GB 流量加餐包售价 60 元，有效期 30 天，含 5GB 5G 专属高速流量，可用于 5G 网络下行加速。订购立即生效，可与主套餐叠加使用，先消耗套餐内流量再启用加餐包。适合短视频创作者及游戏用户，App 内订购享 95 折优惠。",
+    "category": "package",
+    "source": "package/flow_pack_30gb.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "package_015",
+    "content": "50GB 流量加餐包售价 90 元，有效期 45 天，为长期出差或远程办公用户设计；订购后立即生效，到期未用完流量自动清零。可叠加多个加餐包，最多同时生效 5 个。通过 10086 人工客服订购可登记发票抬头，支持开具电子发票报销。",
+    "category": "package",
+    "source": "package/flow_pack_50gb.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "package_016",
+    "content": "100GB 流量加餐包售价 150 元，有效期 60 天，超大流量适用于家庭共享场景；订购后立即生效，可与主套餐、家庭共享流量池叠加，超出主套餐流量时优先抵扣。每个自然月限购 2 个，适合移动办公、直播带货等高流量需求用户。",
+    "category": "package",
+    "source": "package/flow_pack_100gb.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "package_017",
+    "content": "校园套餐 29 元/月面向在校大学生，含国内流量 40GB（其中校园区域 20GB）、校内通话 500 分钟及校园网 WiFi 时长 100 小时；办理需提供学生证验证学籍，可通过校园营业厅或 App 线上核验办理。假期自动切换为全国通用流量 15GB，毕业后可改签其他套餐。",
+    "category": "package",
+    "source": "package/campus_plan.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "package_018",
+    "content": "孝心卡 19 元/月为老年用户设计，含国内流量 2GB、国内通话 200 分钟及亲情号 3 个免费互拨；支持大字模式及人工客服优先接入，子女可通过家庭共享功能代缴话费。年满 60 周岁用户凭身份证在营业厅办理，可叠加 5 元防骚扰服务包。",
+    "category": "package",
+    "source": "package/filial_card.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "package_019",
+    "content": "家庭融合套餐 129 元/月含手机流量 60GB、语音 1000 分钟共享池，最多可加入 5 个成员号码，每人 10 元/月副卡功能费；含 300M 家庭宽带及电视基础包。成员间通话免费，共享池流量用尽后统一按 5 元/GB 计费，办理需户主本人身份证。",
+    "category": "package",
+    "source": "package/family_plan.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "package_020",
+    "content": "闲时流量包 10 元/月含 100GB 夜间流量，使用时段为每日 23:00 至次日 7:00，可用于视频下载、游戏更新等大流量场景；订购后立即生效，每月自动续订，可发送短信 XSLB 至 10086 退订。闲时流量仅限 4G/5G 网络使用，不含 WiFi。",
+    "category": "package",
+    "source": "package/offpeak_flow.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  }
+]

@@ -1,0 +1,89 @@
+[project]
+name = "telecomops-agent"
+version = "0.1.0"
+description = "TeleComOps Agent — 电信 CRM 场景的智能业务办理与知识助手（LangGraph Stateful Agent + RAG）"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    # Web
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.32",
+    # 配置与数据校验
+    "pydantic>=2.9",
+    "pydantic-settings>=2.6",
+    # HTTP 客户端（LLMClient 直连 DeepSeek）
+    "httpx>=0.27",
+    # Agent / Workflow 编排（LangChain 抽象 + LangGraph 图编排）
+    "langgraph>=1.0",
+    "langchain-core>=1.0",
+    # 业务数据库
+    "sqlalchemy>=2.0.36",
+    "psycopg[binary]>=3.2",
+    # 向量数据库（客户端 API；Milvus Lite 见 [dependency-groups] lite）
+    "pymilvus==2.5.9",
+    # Embedding / Reranker（BGE 系列，CPU 优先）
+    "sentence-transformers>=3.3,<5",
+    # 可观测性
+    "prometheus-client>=0.21",
+    "opentelemetry-api>=1.28",
+    "opentelemetry-sdk>=1.28",
+    "opentelemetry-exporter-otlp>=1.28",
+    "opentelemetry-instrumentation-fastapi>=0.50b0",
+    "huggingface-hub[hf-xet]>=0.36.2",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3",
+    "pytest-asyncio>=0.24",
+    "ruff>=0.8",
+    "mypy>=1.13",
+]
+# Milvus Lite：仅 linux/macos 可用（无 Windows wheel）。
+# 用于容器不在时的离线开发回退；Windows 开发请使用 compose 的 Milvus standalone。
+lite = [
+    "milvus-lite>=2.5,<3",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["app"]
+
+# torch 使用 CPU 版索引（本机开发优先；容器内同配置）
+[tool.uv.sources]
+torch = { index = "pytorch-cpu" }
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+markers = [
+    "integration: 需要真实基础设施（compose 的 PostgreSQL/Milvus），服务不可达时跳过",
+    "real_llm: 需要真实 DeepSeek API Key，默认不跑",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+src = ["app", "scripts", "tests", "evaluation"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "W"]
+# UP042：str+Enum 继承是刻意设计（字符串枚举可直接序列化/入日志），保留
+ignore = ["E501", "UP042"]
+
+[tool.mypy]
+python_version = "3.11"
+ignore_missing_imports = true
+check_untyped_defs = true
+warn_unused_ignores = false
+exclude = ["tests/"]
+# LangGraph 的 add_node 对 TypedDict 状态存在已知的类型推断限制，禁用该错误码
+disable_error_code = ["type-var"]

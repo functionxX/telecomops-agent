@@ -1,0 +1,146 @@
+[
+  {
+    "id": "billing_001",
+    "content": "账单周期为每月 1 日至当月最后一日，账单在次月 5 日出账；出账后可通过短信、App 或邮箱接收账单通知。账单包含上月消费总额、各业务明细及应缴费用，出账后 3 日内缴费不影响正常使用，逾期将按欠费停机规则处理。",
+    "category": "billing",
+    "source": "billing/billing_cycle.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "billing_002",
+    "content": "账单查询渠道包括：中国移动 App「我的账单」查看电子账单与消费明细、发送短信 CXYE 至 10086 查询应缴费用、拨打 10086 语音播报账单概要、营业厅自助终端打印纸质账单。电子账单支持近 12 个月查询，纸质账单打印免费。",
+    "category": "billing",
+    "source": "billing/query_channels.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "billing_003",
+    "content": "后付费用户逾期未缴费将暂停服务：欠费超过 3 天发送催缴短信，欠费满 30 天停机，停机满 60 天仍未缴费将按销户处理；停机期间来电显示、呼叫转移等增值业务同步停止。缴费后立即恢复服务，重新开机后 2 小时内可正常使用。",
+    "category": "billing",
+    "source": "billing/arrears_suspend.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "billing_004",
+    "content": "缴费渠道包括：中国移动 App、微信公众号、支付宝生活号、营业厅前台、合作银行代扣及便利店自助缴费机；支持微信、支付宝、银行卡及现金支付。缴费后实时到账，当月欠费缴清后立即复机，充值金额次月自动抵扣账单费用。",
+    "category": "billing",
+    "source": "billing/payment_channels.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "billing_005",
+    "content": "自动充值业务可在账户余额低于设定阈值（默认 20 元）时自动从绑定银行卡扣款充值，扣款金额可选 50 元、100 元或 200 元；可通过中国移动 App「自动充值」开通或修改设置，绑定银行卡须为本人储蓄卡。每月自动充值上限 1000 元，可随时关闭。",
+    "category": "billing",
+    "source": "billing/auto_topup.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "billing_006",
+    "content": "账单分期可将上月账单金额（100 元起）分为 3 期或 6 期支付，每期收取手续费 0.5%；办理方式：中国移动 App「账单分期」入口在线申请，或拨打 10086 人工办理。分期期间不影响号码正常使用，提前结清需支付剩余期数全部手续费。",
+    "category": "billing",
+    "source": "billing/installment.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "billing_007",
+    "content": "违约金按未履行合约期内剩余月份套餐费的 30% 计算，例如剩余 6 个月、月套餐 99 元，违约金为 99×6×30%＝178.2 元；合约到期后办理降档、销户或携号转网均不收取违约金。靓号协议违约金单独计算，以协议约定为准。",
+    "category": "billing",
+    "source": "billing/penalty_calc.md",
+    "version": "2026-03",
+    "effective_date": "2026-03-01"
+  },
+  {
+    "id": "billing_008",
+    "content": "手机、宽带、电视等业务可在同一账户下合并出账，合并后一个账户统一缴费，账单中分列各项业务明细；通过中国移动 App「账户管理」绑定合并账户，需户主本人实名认证。合并账户次月生效，缴纳任一业务可同时结清全部欠费。",
+    "category": "billing",
+    "source": "billing/combined_bill.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "billing_009",
+    "content": "电子发票可在中国移动 App「发票中心」自助开具，支持近 12 个月账单，开具后 24 小时内发送至预留邮箱；支持个人及企业抬头，企业抬头需填写纳税人识别号。发票开具后不可重复开具，如信息有误可在 3 个月内申请红冲重开。",
+    "category": "billing",
+    "source": "billing/e_invoice.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "billing_010",
+    "content": "话费余额分为可用余额与冻结余额：可用余额可正常抵扣消费，冻结余额因参加活动或充值赠送在约定期限内不可使用；查询方式为发送短信 CXYE 至 10086 或 App 查看。余额转出、退还仅限本人办理，销户时余额可退还至本人银行卡。",
+    "category": "billing",
+    "source": "billing/balance_detail.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "billing_011",
+    "content": "消费明细可通过中国移动 App「账单-消费明细」按日期查询每笔通话、短信、流量及增值业务扣费记录，支持按业务类型分类筛选查看；明细数据保留 12 个月。如有单笔扣费不明确，可点击详情查看对应业务名称及计费规则。",
+    "category": "billing",
+    "source": "billing/consumption_detail.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "billing_012",
+    "content": "对彩铃、天气服务等增值业务扣费有异议，可通过发送短信 TDA 至 10086 退订并申请退费，或拨打 10086 转人工登记；核实确认后 72 小时内退回费用，回复 TD 退订后即不再续费。对连续三个月扣费的增值业务可申请双倍退还。",
+    "category": "billing",
+    "source": "billing/vas_dispute.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "billing_013",
+    "content": "退费申请可通过中国移动 App「我的服务-退费」在线提交，需选择退费原因并填写收款银行卡信息；审核通过后 3 至 5 个工作日到账，退费金额为该账户可退余额。预付费充值赠送金额、活动返还金额不可退，仅退自有充值部分。",
+    "category": "billing",
+    "source": "billing/refund_process.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "billing_014",
+    "content": "号码连续欠费停机满 60 天将自动销号，号码回收后无法找回，号码内余额归零；销号前会有短信多次催缴提醒，建议欠费后 30 天内尽快缴费。若因特殊原因无法缴费，可申请停机保号保留号码，每月收取 5 元保号费。",
+    "category": "billing",
+    "source": "billing/arrears_reclaim.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "billing_015",
+    "content": "后付费用户根据入网时长、缴费记录与消费水平获得信用额度，默认初始额度 100 元，最高可达 1000 元；在信用额度内欠费不停机，超出额度后才暂停服务。可通过 App「信用额度」查看，连续 12 个月按时缴费可自动提升额度。",
+    "category": "billing",
+    "source": "billing/credit_limit.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "billing_016",
+    "content": "对账单金额有争议可通过三个渠道处理：拨打 10086 人工登记异议、App「账单反馈」在线提交、营业厅填写争议处理单；运营商将在 5 个工作日内回复核查结果，争议期间不停机。若协商不一致可向通信管理局投诉，受理电话 12300。",
+    "category": "billing",
+    "source": "billing/bill_dispute.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "billing_017",
+    "content": "预付费用户充值余额有效期为充值日起 2 年，到期未用完余额将清零，可通过续充将原余额有效期顺延；发送短信 CXYE 可查看余额及到期时间。为避免余额过期，建议按实际需求充值，参加充值送活动到账的赠送金额有效期 6 个月。",
+    "category": "billing",
+    "source": "billing/prepaid_expiry.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "billing_018",
+    "content": "账单常见名词解释：月租费为套餐固定费用，语音费为通话费用，流量费为上网费用，增值业务费为彩铃、会员等附加业务费用；代收费为水电煤等第三方代缴费用，国际漫游费单独列示；优惠返还是活动返还金额，冲抵为抵扣费用。",
+    "category": "billing",
+    "source": "billing/bill_terms.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  }
+]

@@ -1,0 +1,14 @@
+.venv
+__pycache__
+*.pyc
+.env
+.git
+.mypy_cache
+.ruff_cache
+.pytest_cache
+tests
+evaluation
+monitoring
+docs
+milvus_lite.db*
+logs

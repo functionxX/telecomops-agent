@@ -1,0 +1,114 @@
+[
+  {
+    "id": "promotion_001",
+    "content": "即日起至 2026 年 3 月 31 日，流量加餐包限时折扣：10GB 加餐包原价 25 元现价 15 元，30GB 加餐包原价 60 元现价 40 元；通过中国移动 App 订购再享 95 折。每个号码限购 3 个，折扣包有效期 30 天，售出不退不换。",
+    "category": "promotion",
+    "source": "promotion/flow_discount.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "promotion_002",
+    "content": "积分兑换流量活动：1000 积分可兑换 1GB 流量月包，3000 积分可兑换 5GB 流量月包，5000 积分可兑换 10GB 流量包；通过中国移动 App「积分商城」兑换，兑换后立即生效，有效期 30 天。活动期间每日前 1000 名兑换享积分 8 折优惠。",
+    "category": "promotion",
+    "source": "promotion/points_flow.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "promotion_003",
+    "content": "合约机优惠活动：办理 5G 合约机，购机款直降最高 1500 元，需承诺 24 个月在网并选定 99 元及以上 5G 套餐；每月返还话费 50 元抵充月租。机型覆盖主流品牌旗舰机，合约期内不可销户、不可携号转网，违约需支付违约金。",
+    "category": "promotion",
+    "source": "promotion/contract_phone.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "promotion_004",
+    "content": "老用户回馈活动：在网满 3 年用户可领取 5GB 流量月包或 10 元话费券（二选一），满 5 年可领取 20GB 流量包或 30 元话费券；通过中国移动 App「我的权益」领取，每月可领一次。活动长期有效，权益领取后 7 天内到账。",
+    "category": "promotion",
+    "source": "promotion/vip_reward.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "promotion_005",
+    "content": "5G 升级活动：4G 套餐用户升级 5G 畅享套餐 59 元及以上档位，次月起连续 3 个月每月赠送 10GB 5G 流量，赠送流量当月有效；同时免费开通视频彩铃服务 3 个月。通过 App「套餐变更」办理即自动参与，无需单独报名。",
+    "category": "promotion",
+    "source": "promotion/5g_upgrade_gift.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "promotion_006",
+    "content": "充值满赠活动：单笔充值满 100 元赠送 5 元话费券，满 200 元赠送 12 元话费券，满 500 元赠送 30 元话费券；通过中国移动 App 或微信小程序充值自动参与。赠费次月到账，有效期 30 天，每个自然月限参与 2 次。",
+    "category": "promotion",
+    "source": "promotion/topup_gift.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "promotion_007",
+    "content": "亲情套餐折扣活动：办理家庭融合套餐首年享 8 折优惠，月费 129 元档折后 103.2 元；同时赠送 2 个成员号码首年副卡功能费减免。活动需户主与成员实名登记，办理后 24 个月内不可变更套餐档位，可通过营业厅或 App 办理。",
+    "category": "promotion",
+    "source": "promotion/family_discount.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "promotion_008",
+    "content": "节假日流量狂欢：春节、国庆等法定节假日期间，发送短信 JJH 至 10086 可领取 3 日 10GB 假日流量包，免费使用，仅限假期期间生效；同时 App 内上线限时秒杀，每日 10:00 抢购 1 元 1GB 流量包。活动数量有限，先到先得。",
+    "category": "promotion",
+    "source": "promotion/holiday_event.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "promotion_009",
+    "content": "新用户首充优惠：入网 30 天内首次充值满 50 元送 10 元话费，满 100 元送 25 元话费；同时免费领取 7 天 10GB 体验流量包，支持 5G 网络使用。优惠通过 App 首充页面自动到账，话费赠费有效期 60 天，仅限新入网号码参与。",
+    "category": "promotion",
+    "source": "promotion/new_user_first_topup.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "promotion_010",
+    "content": "邀请有礼活动：老用户邀请好友办理中国移动号码，好友入网并首充 50 元后，邀请人可获得 2000 积分或 15 元话费券（二选一）；好友可享专属 5GB 新客流量礼包。通过 App「邀请有礼」页面生成邀请码分享，每月邀请上限 5 人。",
+    "category": "promotion",
+    "source": "promotion/invite_reward.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "promotion_011",
+    "content": "生日礼包活动：生日当月用户可通过中国移动 App「我的生日礼」领取生日礼包，包含 10GB 流量月包、20 元话费券及视频会员体验券；需在生日当月 1 日至最后一日内领取，逾期视为放弃。领取后 3 个工作日内到账，话费券有效期 30 天。",
+    "category": "promotion",
+    "source": "promotion/birthday_gift.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "promotion_012",
+    "content": "年末回馈活动：2026 年 12 月 1 日至 12 月 31 日，累计消费满 500 元用户可参与抽奖，奖品含 100 元话费、5000 积分及 5G 手机购机券；同时所有用户可领取 5GB 年末流量包。通过 App「年末回馈」页面参与，中奖结果 24 小时内短信通知。",
+    "category": "promotion",
+    "source": "promotion/year_end_reward.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "promotion_013",
+    "content": "流量包买一送一：2026 年 6 月 1 日至 6 月 30 日，订购 20GB 及以上流量加餐包享买一送一，即同规格流量包赠送一份，赠送包有效期与购买包相同；通过 App「流量商城」参与。每个号码限参与 2 次，赠送流量不可转赠不可折现。",
+    "category": "promotion",
+    "source": "promotion/buy_one_get_one.md",
+    "version": "2026-06",
+    "effective_date": "2026-06-01"
+  },
+  {
+    "id": "promotion_014",
+    "content": "家庭共享流量活动：家庭融合套餐用户可参与流量共享挑战，全月家庭总流量使用达 80GB 奖励下月 20GB 共享流量；通过 App「家庭共享」页面报名参与，奖励流量次月 5 日前到账，仅限参与家庭账号使用，不可转赠其他号码。",
+    "category": "promotion",
+    "source": "promotion/family_flow_share.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  }
+]

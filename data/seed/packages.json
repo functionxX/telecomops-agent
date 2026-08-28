@@ -1,0 +1,18 @@
+[
+  {"package_id": "pk_5g_59", "name": "5G畅享套餐59元档", "category": "main", "monthly_fee": 59.0, "data_gb": 10, "voice_minutes": 200, "description": "10GB全国流量+200分钟通话，含5G高速网络", "status": "active"},
+  {"package_id": "pk_5g_79", "name": "5G畅享套餐79元档", "category": "main", "monthly_fee": 79.0, "data_gb": 20, "voice_minutes": 300, "description": "20GB全国流量+300分钟通话，含视频会员月卡", "status": "active"},
+  {"package_id": "pk_5g_99", "name": "5G畅享套餐99元档", "category": "main", "monthly_fee": 99.0, "data_gb": 30, "voice_minutes": 500, "description": "30GB全国流量+500分钟通话，含视频会员月卡+云盘会员", "status": "active"},
+  {"package_id": "pk_5g_129", "name": "5G畅享套餐129元档", "category": "main", "monthly_fee": 129.0, "data_gb": 30, "voice_minutes": 1000, "description": "30GB全国流量+1000分钟通话，含全家享权益，可加2张副卡", "status": "active"},
+  {"package_id": "pk_5g_159", "name": "5G畅享套餐159元档", "category": "main", "monthly_fee": 159.0, "data_gb": 40, "voice_minutes": 1500, "description": "40GB全国流量+1500分钟通话，含视频会员+音乐会员", "status": "active"},
+  {"package_id": "pk_5g_199", "name": "5G畅享套餐199元档", "category": "main", "monthly_fee": 199.0, "data_gb": 60, "voice_minutes": 2000, "description": "60GB全国流量+2000分钟通话，含视频+音乐+云盘会员", "status": "active"},
+  {"package_id": "pk_5g_299", "name": "5G畅享套餐299元档", "category": "main", "monthly_fee": 299.0, "data_gb": 100, "voice_minutes": 3000, "description": "100GB全国流量+3000分钟通话，含全家享+国际漫游礼包", "status": "active"},
+  {"package_id": "pk_campus_39", "name": "校园青春套餐39元档", "category": "main", "monthly_fee": 39.0, "data_gb": 30, "voice_minutes": 100, "description": "30GB校园流量（校内）+10GB全国流量，限在校学生办理", "status": "active"},
+  {"package_id": "pk_senior_19", "name": "孝心卡19元档", "category": "main", "monthly_fee": 19.0, "data_gb": 3, "voice_minutes": 500, "description": "3GB流量+500分钟通话，大字屏适配服务，限60岁以上办理", "status": "active"},
+  {"package_id": "pk_family_199", "name": "家庭融合套餐199元档", "category": "main", "monthly_fee": 199.0, "data_gb": 80, "voice_minutes": 1500, "description": "80GB共享流量+1500分钟共享通话+500M宽带，可绑定4张成员卡", "status": "active"},
+  {"package_id": "addon_5g", "name": "流量加餐包5GB", "category": "data_addon", "monthly_fee": 10.0, "data_gb": 5, "voice_minutes": 0, "description": "5GB全国流量，当月有效，可叠加", "status": "active"},
+  {"package_id": "addon_10g", "name": "流量加餐包10GB", "category": "data_addon", "monthly_fee": 20.0, "data_gb": 10, "voice_minutes": 0, "description": "10GB全国流量，当月有效，可叠加", "status": "active"},
+  {"package_id": "addon_20g", "name": "流量加餐包20GB", "category": "data_addon", "monthly_fee": 30.0, "data_gb": 20, "voice_minutes": 0, "description": "20GB全国流量，当月有效，可叠加", "status": "active"},
+  {"package_id": "addon_30g", "name": "流量加餐包30GB", "category": "data_addon", "monthly_fee": 45.0, "data_gb": 30, "voice_minutes": 0, "description": "30GB全国流量，当月有效，可叠加", "status": "active"},
+  {"package_id": "addon_50g", "name": "流量加餐包50GB", "category": "data_addon", "monthly_fee": 60.0, "data_gb": 50, "voice_minutes": 0, "description": "50GB全国流量，当月有效，可叠加", "status": "active"},
+  {"package_id": "addon_100g", "name": "流量加餐包100GB", "category": "data_addon", "monthly_fee": 100.0, "data_gb": 100, "voice_minutes": 0, "description": "100GB全国流量，当月有效，可叠加", "status": "active"}
+]

@@ -1,0 +1,12 @@
+[
+  {"id": "svc_001", "user_id": "user_001", "service_type": "roaming", "status": "disabled", "updated_at": "2026-08-01T10:00:00Z"},
+  {"id": "svc_002", "user_id": "user_001", "service_type": "voicemail", "status": "enabled", "updated_at": "2026-01-05T09:00:00Z"},
+  {"id": "svc_003", "user_id": "user_001", "service_type": "5g", "status": "enabled", "updated_at": "2025-11-01T08:00:00Z"},
+  {"id": "svc_004", "user_id": "user_002", "service_type": "roaming", "status": "enabled", "updated_at": "2026-07-20T14:30:00Z"},
+  {"id": "svc_005", "user_id": "user_002", "service_type": "5g", "status": "enabled", "updated_at": "2025-10-15T11:00:00Z"},
+  {"id": "svc_006", "user_id": "user_003", "service_type": "roaming", "status": "enabled", "updated_at": "2026-06-01T07:20:00Z"},
+  {"id": "svc_007", "user_id": "user_003", "service_type": "voicemail", "status": "enabled", "updated_at": "2025-09-01T09:00:00Z"},
+  {"id": "svc_008", "user_id": "user_003", "service_type": "5g", "status": "enabled", "updated_at": "2025-08-01T08:00:00Z"},
+  {"id": "svc_009", "user_id": "user_005", "service_type": "5g", "status": "enabled", "updated_at": "2026-03-12T10:40:00Z"},
+  {"id": "svc_010", "user_id": "user_008", "service_type": "roaming", "status": "disabled", "updated_at": "2026-05-18T15:10:00Z"}
+]

@@ -1,0 +1,35 @@
+# OpenTelemetry Collector 配置
+#
+# 职责划分：
+#   - 业务自定义指标：应用内 prometheus_client 直接暴露 /metrics（Prometheus job: app）
+#   - OTel 自动埋点指标（HTTP server 等）：OTLP → collector → prometheus exporter（job: otel-collector）
+#   - Traces：OTLP → collector → logging exporter（console）
+#     若要可视化 traces，可扩展 Tempo/Jaeger 后端（见 docs/adr，第一版不引入）
+receivers:
+  otlp:
+    protocols:
+      grpc:
+        endpoint: 0.0.0.0:4317
+      http:
+        endpoint: 0.0.0.0:4318
+
+processors:
+  batch:
+    timeout: 5s
+
+exporters:
+  prometheus:
+    endpoint: "0.0.0.0:8889"
+  debug:
+    verbosity: normal
+
+service:
+  pipelines:
+    traces:
+      receivers: [otlp]
+      processors: [batch]
+      exporters: [debug]
+    metrics:
+      receivers: [otlp]
+      processors: [batch]
+      exporters: [prometheus]

@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+dist/
+build/
+
+# 密钥与本地配置（.env.example 才入库）
+.env
+
+# 工具缓存
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# 本地 Milvus Lite 数据文件
+milvus_lite.db*
+
+# 评测结果（生成物，通过脚本重新生成）
+evaluation/results/*.json
+
+# 日志
+logs/
+*.log
+
+# IDE
+.idea/
+.vscode/
+
+# 个人 AI 助手配置（不属于项目交付物）
+.claude/

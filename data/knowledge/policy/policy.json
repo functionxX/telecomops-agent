@@ -1,0 +1,114 @@
+[
+  {
+    "id": "policy_001",
+    "content": "根据《携号转网服务管理规定》，用户可在不换号的情况下自由选择运营商：需满足无在网合约、无欠费、无靓号协议等条件；携转申请通过后 1 个工作日内完成转网，原运营商须配合用户办理，不得设置不合理限制，转网后原余额按规则清退。",
+    "category": "policy",
+    "source": "policy/number_portability.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "policy_002",
+    "content": "按照《电话用户真实身份信息登记规定》，新入网用户须提供本人有效身份证件进行实名登记；未实名老用户将被暂停服务直至补登完成。同一身份信息最多可登记 5 个号码，单位号码须登记经办人信息，虚假登记将被依法追究责任。",
+    "category": "policy",
+    "source": "policy/real_name.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "policy_003",
+    "content": "为落实未成年人网络保护要求，运营商为 16 周岁以下用户提供默认防沉迷设置：每日 22 点至次日 8 点限制游戏类应用网络接入，消费单笔超过 100 元需监护人授权；监护人可通过「绿色上网」服务设置上网时长与内容过滤白名单。",
+    "category": "policy",
+    "source": "policy/minor_protection.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "policy_004",
+    "content": "根据工信部《综合整治骚扰电话专项行动方案》，运营商免费提供高频骚扰电话拦截服务，用户可发送短信 KTLB 至 10086 开通；对经核实的高频呼叫号码进行停机处理，被骚扰用户可拨打 12321 网络不良与垃圾信息举报受理中心电话举报。",
+    "category": "policy",
+    "source": "policy/spam_call_governance.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "policy_005",
+    "content": "依据《中华人民共和国反电信网络诈骗法》，新入网号码 48 小时内高频呼叫将触发二次实名核验；对涉嫌诈骗的号码实施限制呼叫、暂停服务措施，用户可发送短信 FZ 至 10086 查询号码涉诈风险。被骗资金可通过 96110 反诈专线申请紧急止付。",
+    "category": "policy",
+    "source": "policy/anti_fraud.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "policy_006",
+    "content": "依据《个人信息保护法》及《电信和互联网用户个人信息保护规定》，运营商收集用户信息须明示用途并取得同意，用户可在中国移动 App「隐私中心」查询个人信息处理情况、申请更正或删除；个人信息存储期限不超过业务必需期限，违规使用将受法律追责。",
+    "category": "policy",
+    "source": "policy/privacy_protection.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "policy_007",
+    "content": "根据套餐管理规范，套餐变更遵循「新套餐次月生效、当月不改不降」原则：次月 1 日起按新套餐计费；合约期内原则上不允许降低档位，特殊情况可申请提前解约并支付违约金；每月最后一日 18 点后系统结算，该时段提交的变更顺延至下下月生效。",
+    "category": "policy",
+    "source": "policy/plan_change_rules.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "policy_008",
+    "content": "停机保号业务政策：号码最长可申请停机保号 6 个月，每月收取保号费 5 元；停机期间不计收月租费，但号码被回收的风险期从恢复开机起重新计算。办理需无欠费，复机时一次性结清保号费，若停机超期未复机号码将被回收。",
+    "category": "policy",
+    "source": "policy/suspend_rules.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "policy_009",
+    "content": "根据号码管理政策，销户须由本人持有效身份证件办理，代办需提供双方证件及授权委托书；有合约、靓号协议或未结清费用的号码不得直接销户，需先解除合约并结清费用。销户后号码进入 90 天冷冻期，冷冻期内号码不可重新入网启用。",
+    "category": "policy",
+    "source": "policy/cancel_rules.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "policy_010",
+    "content": "依据国际通信监管要求，运营商须对国际漫游资费进行明示告知，开通前须以短信或页面形式告知资费标准并取得用户确认；对异常高额漫游消费（单日超过 500 元）实施费用提醒及暂停服务保护措施，用户可通过 10086 申请漫游费用限额设置。",
+    "category": "policy",
+    "source": "policy/roaming_regulation.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "policy_011",
+    "content": "根据国家 5G 发展规划，运营商持续推进 5G 网络覆盖：2026 年底前实现全国 98% 乡镇以上区域 5G 连续覆盖，重点城市城区、交通枢纽及大型场馆实现深度覆盖；用户可在中国移动 App「5G 覆盖地图」查询所在位置 5G 信号覆盖情况。",
+    "category": "policy",
+    "source": "policy/5g_coverage_plan.md",
+    "version": "2026-03",
+    "effective_date": "2026-03-01"
+  },
+  {
+    "id": "policy_012",
+    "content": "根据工信部 eSIM 试点政策，目前 eSIM 业务仅向可穿戴设备（手表、手环）开放，手机 eSIM 暂未正式商用；支持 eSIM 的可穿戴设备可在中国移动营业厅或 App 申请一号双终端业务，月功能费 10 元，与主号共享套餐通话及流量资源。",
+    "category": "policy",
+    "source": "policy/esim_policy.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "policy_013",
+    "content": "根据《电信网码号资源管理办法》，运营商对长期未使用的号码进行回收：入网后连续 6 个月无任何通话、短信及上网记录的号码将被判定为沉睡号码，回收前 30 天短信提醒；回收号码将重新投放市场，原号主无法找回。",
+    "category": "policy",
+    "source": "policy/number_resource.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "id": "policy_014",
+    "content": "依据《电信服务规范》，运营商承诺：网络接通率不低于 95%，短信中心处理时延不超过 2 分钟，故障修复时限为一般故障 24 小时内、重大故障 48 小时内；用户可拨打 10086 或通过 App 对网络服务质量进行投诉，24 小时内响应，7 日内反馈处理结果。",
+    "category": "policy",
+    "source": "policy/qos_standards.md",
+    "version": "2026-01",
+    "effective_date": "2026-01-01"
+  }
+]

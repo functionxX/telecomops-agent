@@ -1,0 +1,11 @@
+[
+  {"id": "up_001", "user_id": "user_001", "package_id": "pk_5g_129", "subscribed_at": "2026-07-01T00:00:00Z", "expires_at": null, "status": "active", "data_used_gb": 22.0},
+  {"id": "up_002", "user_id": "user_002", "package_id": "pk_5g_59", "subscribed_at": "2026-06-15T00:00:00Z", "expires_at": null, "status": "active", "data_used_gb": 4.0},
+  {"id": "up_003", "user_id": "user_003", "package_id": "pk_5g_199", "subscribed_at": "2026-05-20T00:00:00Z", "expires_at": null, "status": "active", "data_used_gb": 12.0},
+  {"id": "up_004", "user_id": "user_004", "package_id": "pk_campus_39", "subscribed_at": "2026-08-01T00:00:00Z", "expires_at": "2027-07-31T00:00:00Z", "status": "active", "data_used_gb": 18.0},
+  {"id": "up_005", "user_id": "user_005", "package_id": "pk_5g_99", "subscribed_at": "2026-04-10T00:00:00Z", "expires_at": null, "status": "active", "data_used_gb": 28.5},
+  {"id": "up_006", "user_id": "user_006", "package_id": "pk_senior_19", "subscribed_at": "2026-03-05T00:00:00Z", "expires_at": null, "status": "active", "data_used_gb": 2.2},
+  {"id": "up_007", "user_id": "user_007", "package_id": "pk_5g_79", "subscribed_at": "2025-12-01T00:00:00Z", "expires_at": null, "status": "active", "data_used_gb": 9.0},
+  {"id": "up_008", "user_id": "user_008", "package_id": "pk_family_199", "subscribed_at": "2026-02-14T00:00:00Z", "expires_at": null, "status": "active", "data_used_gb": 35.0},
+  {"id": "up_009", "user_id": "user_005", "package_id": "addon_10g", "subscribed_at": "2026-08-15T00:00:00Z", "expires_at": "2026-08-31T23:59:59Z", "status": "active", "data_used_gb": 3.0}
+]

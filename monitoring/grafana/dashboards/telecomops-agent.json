@@ -1,0 +1,150 @@
+{
+  "annotations": { "list": [] },
+  "editable": true,
+  "graphTooltip": 0,
+  "panels": [
+    {
+      "type": "stat",
+      "title": "HTTP 请求速率 (req/s)",
+      "gridPos": { "h": 6, "w": 6, "x": 0, "y": 0 },
+      "targets": [
+        {
+          "expr": "sum(rate(request_count[5m]))",
+          "legendFormat": "req/s",
+          "refId": "A"
+        }
+      ],
+      "fieldConfig": { "defaults": { "unit": "reqps" } },
+      "datasource": { "type": "prometheus", "uid": "${DS_PROMETHEUS}" }
+    },
+    {
+      "type": "timeseries",
+      "title": "HTTP 延迟 P95 (s)",
+      "gridPos": { "h": 6, "w": 9, "x": 6, "y": 0 },
+      "targets": [
+        {
+          "expr": "histogram_quantile(0.95, sum(rate(request_latency_bucket[5m])) by (le, route))",
+          "legendFormat": "{{route}}",
+          "refId": "A"
+        }
+      ],
+      "fieldConfig": { "defaults": { "unit": "s" } },
+      "datasource": { "type": "prometheus", "uid": "${DS_PROMETHEUS}" }
+    },
+    {
+      "type": "stat",
+      "title": "LLM 错误总数",
+      "gridPos": { "h": 6, "w": 4, "x": 15, "y": 0 },
+      "targets": [
+        { "expr": "sum(increase(llm_error_count[1h]))", "legendFormat": "errors/h", "refId": "A" }
+      ],
+      "datasource": { "type": "prometheus", "uid": "${DS_PROMETHEUS}" }
+    },
+    {
+      "type": "timeseries",
+      "title": "LLM 延迟 P95 (s) by purpose",
+      "gridPos": { "h": 6, "w": 10, "x": 0, "y": 6 },
+      "targets": [
+        {
+          "expr": "histogram_quantile(0.95, sum(rate(llm_latency_bucket[5m])) by (le, purpose))",
+          "legendFormat": "{{purpose}}",
+          "refId": "A"
+        }
+      ],
+      "fieldConfig": { "defaults": { "unit": "s" } },
+      "datasource": { "type": "prometheus", "uid": "${DS_PROMETHEUS}" }
+    },
+    {
+      "type": "timeseries",
+      "title": "工具调用速率 by status",
+      "gridPos": { "h": 6, "w": 9, "x": 10, "y": 6 },
+      "targets": [
+        {
+          "expr": "sum(rate(tool_call_count[5m])) by (status)",
+          "legendFormat": "{{status}}",
+          "refId": "A"
+        }
+      ],
+      "datasource": { "type": "prometheus", "uid": "${DS_PROMETHEUS}" }
+    },
+    {
+      "type": "timeseries",
+      "title": "工具错误 by tool",
+      "gridPos": { "h": 6, "w": 10, "x": 0, "y": 12 },
+      "targets": [
+        {
+          "expr": "sum(increase(tool_error_count[1h])) by (tool)",
+          "legendFormat": "{{tool}}",
+          "refId": "A"
+        }
+      ],
+      "datasource": { "type": "prometheus", "uid": "${DS_PROMETHEUS}" }
+    },
+    {
+      "type": "timeseries",
+      "title": "Workflow 成功 vs 失败",
+      "gridPos": { "h": 6, "w": 9, "x": 10, "y": 12 },
+      "targets": [
+        { "expr": "sum(rate(workflow_success_count[5m]))", "legendFormat": "success", "refId": "A" },
+        { "expr": "sum(rate(workflow_failure_count[5m]))", "legendFormat": "failure", "refId": "B" }
+      ],
+      "datasource": { "type": "prometheus", "uid": "${DS_PROMETHEUS}" }
+    },
+    {
+      "type": "timeseries",
+      "title": "Agent 重试/重规划次数",
+      "gridPos": { "h": 6, "w": 9, "x": 0, "y": 18 },
+      "targets": [
+        {
+          "expr": "sum(increase(agent_retry_count[1h])) by (strategy)",
+          "legendFormat": "{{strategy}}",
+          "refId": "A"
+        }
+      ],
+      "datasource": { "type": "prometheus", "uid": "${DS_PROMETHEUS}" }
+    },
+    {
+      "type": "timeseries",
+      "title": "RAG 检索延迟 P95 (s) by stage",
+      "gridPos": { "h": 6, "w": 10, "x": 9, "y": 18 },
+      "targets": [
+        {
+          "expr": "histogram_quantile(0.95, sum(rate(rag_retrieval_latency_bucket[5m])) by (le, stage))",
+          "legendFormat": "{{stage}}",
+          "refId": "A"
+        }
+      ],
+      "fieldConfig": { "defaults": { "unit": "s" } },
+      "datasource": { "type": "prometheus", "uid": "${DS_PROMETHEUS}" }
+    },
+    {
+      "type": "stat",
+      "title": "RAG 检索次数 (1h)",
+      "gridPos": { "h": 6, "w": 5, "x": 19, "y": 18 },
+      "targets": [
+        { "expr": "sum(increase(rag_retrieval_count[1h]))", "legendFormat": "count", "refId": "A" }
+      ],
+      "datasource": { "type": "prometheus", "uid": "${DS_PROMETHEUS}" }
+    }
+  ],
+  "refresh": "10s",
+  "schemaVersion": 39,
+  "tags": ["telecomops", "agent"],
+  "templating": {
+    "list": [
+      {
+        "name": "DS_PROMETHEUS",
+        "type": "datasource",
+        "query": "prometheus",
+        "hide": 0,
+        "current": {},
+        "options": []
+      }
+    ]
+  },
+  "time": { "from": "now-1h", "to": "now" },
+  "timezone": "browser",
+  "title": "TeleComOps Agent",
+  "uid": "telecomops-agent",
+  "version": 1
+}
